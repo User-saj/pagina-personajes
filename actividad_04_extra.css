@@ -1,0 +1,136 @@
+/* Server Side Estilos para actividad_04.html */
+
+/* inicializacion de estilos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* para que la imagen abarque toda la pagina: html y body al 100% */
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("helicopterLDV.jpg");
+  /* fondo ajustado al body */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#titulo {
+  color: ivory;
+  text-shadow: 1px 1px 2px rgb(77, 77, 77), 2px 2px 4px darkgoldenrod;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* titulos de la pagina */
+#subt1 {
+  font-size: 20px;
+}
+#subt2 {
+  font-size: 30px;
+}
+
+/* contiene al formulario con grid */
+main {
+  display: grid;
+  place-items: center;
+}
+
+/* estilo del contenedor del formulario */
+#form_prsnj,
+#outPsj {
+  margin-top: 15px;
+  width: 380px;
+  border-radius: 15px;
+  background-color: rgb(255, 255, 240, 0.75);
+  text-align: left;
+  padding: 15px 20px 15px 25px;
+  box-shadow: 6px 6px 10px 1px black;
+}
+/* titulo del formulario */
+#ttlForm {
+  color: darkgoldenrod;
+  text-align: center;
+  padding: 2px 0 8px;
+}
+/* espacio vertical de los campos de entrada */
+form input {
+  margin: 4px 0;
+  padding: 2px 0;
+}
+
+/* marco que contiene los botones de genero */
+#fieldGen {
+  margin: 0 auto;
+  text-align: left;
+  width: 220px;
+  padding: 1px 0 10px 14px;
+  border-radius: 7px;
+  font-size: 14px;
+  background-color: rgb(182, 131, 11, 0.5);
+}
+
+/* caja que contiene al boton guardar */
+#grdrBtn {
+  padding-top: 10px;
+  text-align: center;
+}
+/* boton submit (guardar) */
+#submBtn,
+#obtnPsj {
+  width: 120px;
+  background-color: rgb(218, 165, 32, 0.5);
+  color: rgb(0, 0, 0);
+  padding: 4px 0;
+  border-radius: 5px;
+  box-shadow: 2px 3px 2px gray;
+  font-size: 17px;
+  text-decoration: none;
+  cursor: pointer;
+}
+#submBtn:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: ivory;
+}
+
+#numPsj {
+  display: inline-block;
+  width: 100px;
+  border: solid 1px black;
+  background-color: white;
+  text-align: center;
+}
+#contPsj p {
+  font-size: 11px;
+}
+
+#infPsj {
+  text-align: left;
+  padding: 10px 0;
+}
+
+#selecc {
+  width: 100px;
+}
+
+#obtnPsj {
+  width: 70px;
+  font-size: 14px;
+}
+
+.tblCol1 {
+  font-size: 12px;
+}
+
+.tblCol2 {
+  font-size: 14px;
+  color: brown;
+  padding-left: 20px;
+}
