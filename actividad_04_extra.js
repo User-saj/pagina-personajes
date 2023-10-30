@@ -32,7 +32,7 @@ function func_guardaLS(evento) {
   let personaje, info_personaje;
   // carga la informacion del formulario en variables locales
   let nCompl = document.getElementById("nombre").value;
-  let tempMasc = document.getElementById("radMasc"); // ".checked" regresa: true or false
+  let tempMasc = document.getElementById("radioMasc"); // ".checked" regresa: true or false
   // si el valor es: true/false se asigna a gnr: masculino/femenino
   let gnr = tempMasc.checked ? "Masculino" : "Femenino"; // if de una linea
   let pNac = document.getElementById("paisNac").value;
