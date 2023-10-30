@@ -19,7 +19,8 @@ body {
   /* fondo ajustado al body */
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center center;
+  background-attachment: fixed;
 }
 
 #titulo {
@@ -108,7 +109,7 @@ form input {
   text-align: center;
 }
 #contPsj p {
-  font-size: 11px;
+  font-size: 0.6em;
 }
 
 #infPsj {
@@ -126,11 +127,15 @@ form input {
 }
 
 .tblCol1 {
-  font-size: 10px;
+  font-size: 0.65em;
 }
 
 .tblCol2 {
   font-size: 14px;
   color: brown;
   padding-left: 20px;
+}
+
+#outPsj {
+  margin-bottom: 20px;
 }
