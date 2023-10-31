@@ -1,4 +1,4 @@
-/* Server Side Estilos para actividad_04.html */
+/* Server Side Estilos para actividad_04_extra.html */
 
 /* inicializacion de estilos */
 * {
@@ -15,7 +15,7 @@ body {
 }
 
 body {
-  background-image: url("helicopterLDV.jpg");
+  background-image: url("images/helicopterLDV.jpg");
   /* fondo ajustado al body */
   background-size: cover;
   background-repeat: no-repeat;
@@ -27,15 +27,15 @@ body {
   color: ivory;
   text-shadow: 1px 1px 2px rgb(77, 77, 77), 2px 2px 4px darkgoldenrod;
   text-align: center;
-  margin-top: 20px;
+  margin-top: 3vw;
 }
 
 /* titulos de la pagina */
 #subt1 {
-  font-size: 20px;
+  font-size: 1.2rem;
 }
 #subt2 {
-  font-size: 30px;
+  font-size: 2rem;
 }
 
 /* contiene al formulario con grid */
@@ -47,9 +47,9 @@ main {
 /* estilo del contenedor del formulario */
 #form_prsnj,
 #outPsj {
-  margin-top: 15px;
-  width: 380px;
-  border-radius: 15px;
+  margin-top: 2vw;
+  width: 21rem;
+  border-radius: 1rem;
   background-color: rgb(255, 255, 240, 0.75);
   text-align: left;
   padding: 15px 20px 15px 25px;
@@ -65,16 +65,31 @@ main {
 form input {
   margin: 4px 0;
   padding: 2px 0;
+  width: 9rem;
+  border: solid 1px black;
+  border-radius: 0.3rem;
+  font-size-adjust: 0.5;
+}
+form label,
+legend {
+  /* para fuentes pequeñas en firefox */
+  font-size-adjust: 0.4;
+  font-size: 0.75rem;
+}
+#fieldGen input {
+  width: 1rem;
 }
 
 /* marco que contiene los botones de genero */
 #fieldGen {
   margin: 0 auto;
   text-align: left;
-  width: 220px;
-  padding: 1px 0 10px 14px;
+  width: 14rem;
+  padding: 3px 0 6px 14px;
   border-radius: 7px;
-  font-size: 14px;
+  /* para fuentes pequeñas en firefox */
+  font-size-adjust: 0.4;
+  font-size: 0.8rem;
   background-color: rgb(182, 131, 11, 0.5);
 }
 
@@ -92,7 +107,7 @@ form input {
   padding: 4px 0;
   border-radius: 5px;
   box-shadow: 2px 3px 2px gray;
-  font-size: 17px;
+  font-size: 16px;
   text-decoration: none;
   cursor: pointer;
 }
@@ -101,14 +116,23 @@ form input {
   color: ivory;
 }
 
+/* <span>  que despliega el num de personajes */
 #numPsj {
   display: inline-block;
-  width: 100px;
+  width: 4rem;
   border: solid 1px black;
   background-color: white;
   text-align: center;
+  border-radius: 0.2rem;
 }
+
+#contPsj {
+  font-size-adjust: 0.5;
+  font-size: 0.8rem;
+}
+/* parrafo de aviso: mientras este abierto...*/
 #contPsj p {
+  /* para fuentes pequeñas en firefox */
   font-size-adjust: 0.4;
   font-size: 10px;
 }
@@ -118,20 +142,22 @@ form input {
   padding: 12px 0;
 }
 
+/* caja del selector */
 #selecc {
   width: 100px;
 }
-
+/* boton ebtener */
 #obtnPsj {
   width: 70px;
   font-size: 14px;
 }
-
+/* columna 1 de la tabla */
 .tblCol1 {
+  /* para fuentes pequeñas en firefox */
   font-size-adjust: 0.4;
   font-size: 10px;
 }
-
+/* columna 2 de la tabla */
 .tblCol2 {
   font-size: 14px;
   color: brown;
@@ -140,4 +166,11 @@ form input {
 
 #outPsj {
   margin-bottom: 20px;
+}
+
+#selecc {
+  border: solid 1px black;
+  background-color: white;
+  border-radius: 0.2rem;
+  font-size-adjust: 0.5;
 }
